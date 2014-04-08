@@ -1,0 +1,5 @@
+PKG core async
+
+S ./
+
+B _build/

@@ -1,0 +1,3 @@
+true: package(core, async, bitstring, bitstring.syntax, ounit)
+true: thread
+true: syntax(camlp4o)
