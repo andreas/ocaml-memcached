@@ -1,0 +1,13 @@
+OASISFormat: 0.4
+Name:        ocaml-memcached
+Version:     0.1
+Synopsis:    OCaml memcached client using core, async and bitstring.
+Authors:     andreas
+License:     MIT
+Plugins:     META (0.4)
+
+Library memcached
+  Path:       .
+  BuildTools: ocamlbuild
+  Modules:    Memcached
+  BuildDepends: async, core, bitstring, bitstring.syntax

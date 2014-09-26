@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: b781958806af2b8fe945cfbfbd99e9c0)
+version = "0.1"
+description = "OCaml memcached client using core, async and bitstring."
+requires = "async core bitstring bitstring.syntax"
+archive(byte) = "memcached.cma"
+archive(byte, plugin) = "memcached.cma"
+archive(native) = "memcached.cmxa"
+archive(native, plugin) = "memcached.cmxs"
+exists_if = "memcached.cma"
+# OASIS_STOP
+
