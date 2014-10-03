@@ -1,3 +1,2 @@
-true: package(core, async, bitstring, bitstring.syntax, ounit)
+true: package(core, async, ocplib-endian)
 true: thread
-true: syntax(camlp4o)

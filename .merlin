@@ -1,4 +1,4 @@
-PKG core async
+PKG core async ocplib-endian
 
 S ./
 
